@@ -1,12 +1,6 @@
-import { clerkMiddleware } from '@clerk/nextjs/server'
+import { clerkMiddleware ,createRouteMatcher} from '@clerk/nextjs/server'
 import { NextResponse } from 'next/server';
 
-const createRouteMatcher = (routes) => {
-    return (req) => {
-      const url = new URL(req.url);
-      return routes.some((route) => new RegExp(route).test(url.pathname));
-    };
-  };
 
 
 const isProtectedRoute=createRouteMatcher([

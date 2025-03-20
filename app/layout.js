@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider appearance={{
       baseTheme:dark,
     }}>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body
           className={`${inter.className}`}
         >
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
               {/* footer */}
               <footer className="bg-muted/50 py-12 ">
                 <div className="container mx-auto px-4 text-center text-gray-200 "> 
-                  <p> Made with love by Satwik Dubey</p>
+                  <p> Made  by Satwik Dubey</p>
                 </div>
               </footer>
 

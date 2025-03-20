@@ -6,8 +6,10 @@ import { Button } from './ui/button'
 import { ChevronDown, ChevronLeft, LayoutDashboard, MousePointer, PointerIcon,file } from 'lucide-react'
 import { DropdownMenu, DropdownMenuContent,  DropdownMenuSeparator, DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu'
 import { DropdownMenuItem,DropdownMenuLabel, DropdownMenuSubContent } from './ui/dropdown-menu'
+import { checkUser } from '@/lib/checkUser'
 
-function Header() {
+const  Header=async()=> {
+    await checkUser();
 return (
     <header className='fixed top-0 w-full vorder-b bg-background/80 backdrop-blur-md z50 supports-[backdrop-filter]:bg-background/60'>
             <nav className='container mx-auto px-4 h-16 flex items-center justify-between'>
