@@ -1,9 +1,11 @@
-import React from 'react'
 
-const AICoverLettersPage = () => {
+
+export default async function aicoverletterPage() {
+
+
   return (
-    <div>AICoverLettersPage</div>
-  )
+    <div className="align-middle mx-auto py-50 px-50">
+      <h1>Coming Soon</h1>
+    </div>
+  );
 }
-
-export default AICoverLettersPage
