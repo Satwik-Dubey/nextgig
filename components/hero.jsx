@@ -57,6 +57,7 @@ const HeroSection = () => {
               src="/banner.png"
               width={1280}
               height={720}
+              alt="picture"
               className="rounded-lg shadow-2xl border mx-auto"
               priority
             />
