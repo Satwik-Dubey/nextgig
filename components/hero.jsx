@@ -45,11 +45,11 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/watch?v=t86sKsR4pnk">
+{/*           <Link href="https://www.youtube.com/watch?v=t86sKsR4pnk">
             <Button size="lg" className="px-8 cursor-pointer" variant="outline">
               Watch Video
             </Button>
-          </Link>
+          </Link> */}
         </div>
         <div>
           <div ref={imageRef} className="hero-image-wrapper mt-5 md:mt-0">
