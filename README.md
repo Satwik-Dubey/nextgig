@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 NextGig
 
-## Getting Started
+**NextGig** is an AI-powered career development platform designed to help users confidently step into the professional world. It combines smart automation and user-friendly tools to offer an all-in-one solution for resume building, cover letter creation, industry insights, and skill assessment through quizzes.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+### 🧑‍💼 User Profile Management
+- Users can register and input their personal and professional details.
+- Data is used to personalize resumes, cover letters, and quizzes.
+
+### 📄 Resume Builder
+- Automatically generate professional and ATS-friendly resumes using AI.
+- Export resumes in PDF format.
+- Editable sections for education, experience, projects, and skills.
+
+### ✍️ Cover Letter Generator
+- AI-based dynamic cover letter generation tailored to specific roles.
+- Customization options to suit individual preferences.
+
+### 📊 Industry Insights
+- View real-time trends and industry updates.
+- Insights are updated every 10 days using external data sources and AI summarization.
+
+### 🧠 Skill Quizzes
+- Take personalized quizzes to test domain knowledge.
+- Receive instant feedback and performance analytics.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: NeonDB
+- **Authentication**: Clerk
+- **AI Integration**: Google Gemini API
+- **Deployment**: Vercel 
+
+---
+
+## 🚧 How It Works
+
+1. **User Onboarding**: Sign up and fill in your personal/professional details.
+2. **Resume & Cover Letter**: Use AI to generate customized application documents.
+3. **Industry Insights**: Check out updated insights to understand job market trends.
+4. **Quizzes**: Take skill-based quizzes and improve based on feedback.
+
+---
+
+## 📦 Installation (for local development)
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/nextgig.git
+
+# Navigate to the project directory
+cd nextgig
+
+# Install dependencies
+npm install
+
+# Create a .env file and add required environment variables
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
