@@ -65,3 +65,7 @@ npm install
 
 # Start the development server
 npm run dev
+```
+## Git Diagram 
+
+![image](https://github.com/user-attachments/assets/c770d2d5-c9e7-4b9e-a01c-ae13ac26f527)
