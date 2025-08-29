@@ -63,8 +63,8 @@ npm install
 
 # Create a .env file and add required environment variables
 
-GEMINI_API_KEY="your_openai_secret_key_here"
-CLERK_SECRET_KEY="your_clerk_secret_key_here"
+GEMINI_API_KEY="your_GEMINI_secret_key_here"
+CLERK_SECRET_KEY="your_CLERK_secret_key_here"
 
 
 # Start the development server
